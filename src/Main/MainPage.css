@@ -1,0 +1,36 @@
+.main-container {
+  padding: 50px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.vehicle-card {
+  width: 30%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+}
+
+.no-filtered-vehicles {
+  height: 100vh;
+  color: white;
+}
+
+.loading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading div {
+  font-size: 28px;
+  font-weight: bold;
+}

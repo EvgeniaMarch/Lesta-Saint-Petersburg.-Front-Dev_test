@@ -1,0 +1,8 @@
+.vehicle-card:hover .nation-image {
+  opacity: 1;
+}
+
+.vehicle-card:hover span {
+  font-weight: bold;
+  color: yellow;
+}

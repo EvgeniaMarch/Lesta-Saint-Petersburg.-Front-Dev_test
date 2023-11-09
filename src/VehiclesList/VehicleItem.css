@@ -1,0 +1,31 @@
+.card-header {
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+img {
+  width: 500px;
+}
+
+.images {
+  position: relative;
+  height: 300px;
+}
+
+.vehicle-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nation-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+}
